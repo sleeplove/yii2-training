@@ -41,8 +41,8 @@ AppAsset::register($this);
  
     
     if (Yii::$app->user->isGuest) {
-        $submenuItems[] = ['label' => '<span class="glyphicon glyphicon-log-in"></span> เข้าสู่ระบบ', 'url' => ['/site/login']];
-        $submenuItems[] = ['label' => '<span class="glyphicon glyphicon-user"></span> สมาชิก', 'url' => ['/site/signup']];
+        $submenuItems[] = ['label' => '<span class="glyphicon glyphicon-log-in"></span> เข้าสู่ระบบ', 'url' => ['/user/security/login']];
+        $submenuItems[] = ['label' => '<span class="glyphicon glyphicon-user"></span> สมาชิก', 'url' => ['/user/registration/register']];
         
 
 
